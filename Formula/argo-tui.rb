@@ -3,26 +3,26 @@
 class ArgoTui < Formula
   desc "Keyboard-first terminal UI for Argo Workflows"
   homepage "https://github.com/ficaa1/argo-tui"
-  version "0.3.1"
+  version "0.5.0"
   license "GPL-3.0-only"
   on_macos do
     on_arm do
-      url "https://github.com/ficaa1/argo-tui/releases/download/v0.3.1/argo-tui_0.3.1_darwin_arm64.tar.gz"
-      sha256 "cba6fb1cbaf691f242bb5e5f6647a56f2975a99ae9d4d8fee7e6004c9a306258"
+      url "https://github.com/ficaa1/argo-tui/releases/download/v0.5.0/argo-tui_0.5.0_darwin_arm64.tar.gz"
+      sha256 "0233ffee08ac30cb76547c7841f0f038f5bbf9d0843f450ac27c522bcc8c22d5"
     end
     on_intel do
-      url "https://github.com/ficaa1/argo-tui/releases/download/v0.3.1/argo-tui_0.3.1_darwin_amd64.tar.gz"
-      sha256 "1543e7338ba907bd454c899d15d833fcd8714b63ad0d48fbe4e93df9046b61bd"
+      url "https://github.com/ficaa1/argo-tui/releases/download/v0.5.0/argo-tui_0.5.0_darwin_amd64.tar.gz"
+      sha256 "57bb45b6a29601290c3b9e5fcb0f54b912f3e31b7680cae873bc01674a8287df"
     end
   end
   on_linux do
     on_arm do
-      url "https://github.com/ficaa1/argo-tui/releases/download/v0.3.1/argo-tui_0.3.1_linux_arm64.tar.gz"
-      sha256 "8d43145fd0e182384acbe65aafd215a54d06ed577fbb465707ee6d744a7c654f"
+      url "https://github.com/ficaa1/argo-tui/releases/download/v0.5.0/argo-tui_0.5.0_linux_arm64.tar.gz"
+      sha256 "7c2073f0043c2e3dfcc7be4952ad4f975188276c46531758bde1a3797a6de47b"
     end
     on_intel do
-      url "https://github.com/ficaa1/argo-tui/releases/download/v0.3.1/argo-tui_0.3.1_linux_amd64.tar.gz"
-      sha256 "88555e3015c6e30a3c077b1bf262181d33c53ad9703528cace23eac0061c71e9"
+      url "https://github.com/ficaa1/argo-tui/releases/download/v0.5.0/argo-tui_0.5.0_linux_amd64.tar.gz"
+      sha256 "bdf2a883eb598e2b534d14bb77b022794cb3405030a5b0a2f4f266bfa0b811d2"
     end
   end
   def install
