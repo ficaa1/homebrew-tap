@@ -3,26 +3,26 @@
 class Micko < Formula
   desc "Keyboard-first terminal UI for Argo Workflows"
   homepage "https://github.com/ficaa1/micko"
-  version "0.7.1"
+  version "0.8.0"
   license "GPL-3.0-only"
   on_macos do
     on_arm do
-      url "https://github.com/ficaa1/micko/releases/download/v0.7.1/micko_0.7.1_darwin_arm64.tar.gz"
-      sha256 "c4297e7d5576b7df255ac6b67be1d59786a561a13d17ac8868dafba2e92257c4"
+      url "https://github.com/ficaa1/micko/releases/download/v0.8.0/micko_0.8.0_darwin_arm64.tar.gz"
+      sha256 "b3b97ca8df09442f2db0eeadcab3f18fe3ff4fec8903da8616cd56748c195c6a"
     end
     on_intel do
-      url "https://github.com/ficaa1/micko/releases/download/v0.7.1/micko_0.7.1_darwin_amd64.tar.gz"
-      sha256 "b4b0564511797b9b1d2e3e4407f33fafa9e5d4bbe939c326807d175bfac44768"
+      url "https://github.com/ficaa1/micko/releases/download/v0.8.0/micko_0.8.0_darwin_amd64.tar.gz"
+      sha256 "db94e3945fb7d4457588022b507ded92d40e4eb53968aae7ca0373499fb6fb18"
     end
   end
   on_linux do
     on_arm do
-      url "https://github.com/ficaa1/micko/releases/download/v0.7.1/micko_0.7.1_linux_arm64.tar.gz"
-      sha256 "d364546b06c99b09a9764431762f7622cd55e43c7c49bc9b0df50ed7742e0de0"
+      url "https://github.com/ficaa1/micko/releases/download/v0.8.0/micko_0.8.0_linux_arm64.tar.gz"
+      sha256 "f9314ce7a441f8a1c0f90991acf817ffb2552c816fcb804842354a4d739b3389"
     end
     on_intel do
-      url "https://github.com/ficaa1/micko/releases/download/v0.7.1/micko_0.7.1_linux_amd64.tar.gz"
-      sha256 "235979e3ec6ce269bc71c4dfa073b68a98731271dc3dc7632c570c404fb627aa"
+      url "https://github.com/ficaa1/micko/releases/download/v0.8.0/micko_0.8.0_linux_amd64.tar.gz"
+      sha256 "71586d77bf49ac843a41e472899502c4f74d15df893fcb9d15c679d6de8f57b5"
     end
   end
   def install
